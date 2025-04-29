@@ -66,6 +66,7 @@ function main() {
 
   // Combine and execute
   const jsCode = jsLines.join('\n');
+
   try {
     new Function(jsCode)();
   } catch (err) {

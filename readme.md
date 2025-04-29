@@ -56,8 +56,13 @@ Bahasa ditentukan oleh kumpulan `Rule` di `rules.ts`, masing‑masing memetakan 
 | `sambei TARGET singkammaji EKSPRESI`                   | `TARGET = EKSPRESI;`              |
 | `akkanako(EKSPRESI)`                                   | `console.log(EKSPRESI);`          |
 | `fungsi NAMA(ARG1, ARG2, ...), maka`                   | `function NAMA(ARG1, ARG2, ...) {`|
-| `NAMA(ARG1, ARG2, ...)` (pemanggilan fungsi)          | `NAMA(ARG1, ARG2, ...);`          |
+| `NAMA(ARG1, ARG2, ...)` (pemanggilan fungsi)           | `NAMA(ARG1, ARG2, ...);`          |
+| `ammari`                                               | `break;`                          |
+| `pannurusuki`                                          | `continue;`                       |
+| `pammotereki fungsi(ARG1, ARG2, ...), maka`            | `return function(ARG1, ARG2, ...) {` |
 | `pammotereki EKSPRESI`                                 | `return EKSPRESI;`                |
+| `untuk VAR = MULAI sampai AKHIR, maka`                 | `for (let VAR = MULAI; VAR <= AKHIR; VAR++) {` |
+| `untuk setiap ITEM dalam ARRAY, maka`                  | `for (const ITEM of ARRAY) {`     |
 
 Operator perbandingan yang didukung: `==`, `!=`, `>`, `<`, `>=`, `<=`.
 
